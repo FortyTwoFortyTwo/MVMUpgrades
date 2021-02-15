@@ -1,0 +1,29 @@
+"Games"
+{
+	"tf"
+	{
+		"Signatures"
+		{
+			"g_MannVsMachineUpgrades"
+			{
+				"library"	"server"
+				"linux"		"@g_MannVsMachineUpgrades"
+			}
+			
+			"CTFGameRules::SetCustomUpgradesFile"
+			{
+				"library"	"server"
+				"windows"	"\x55\x8B\xEC\x56\x57\x8B\xF9\x8B\x4D\x08\x83\xC1\x08\x83\x79\x10\x02\x75\x2A\x8B\x01\xBE\x2A\x2A\x2A\x2A\x85\xC0\x0F\x45\xF0\xEB\x2A\xE8\x2A\x2A\x2A\x2A\x8B\xF0\x56"
+			}
+		}
+		
+		"Offsets"
+		{
+			/* Offset into CTFGameRules::SetCustomUpgradesFile */
+			"g_MannVsMachineUpgrades"
+			{
+				"windows"	"42"
+			}
+		}
+	}
+}
